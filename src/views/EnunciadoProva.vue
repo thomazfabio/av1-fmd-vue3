@@ -1,5 +1,5 @@
 <template>
-    <v-container  style="width:100vw;" class="pl-10">
+    <v-container fluid style="width: 100%;" class="pl-10 pr-10 pb-10 mt-8">
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
