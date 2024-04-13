@@ -8,19 +8,19 @@
       </v-rou>
       <v-row>
         <v-spacer></v-spacer>
-          <v-col cols="2">
-            <RouterLink to="/enunciado"><v-btn color="primary" style="width: 100%;">enunciado</v-btn></RouterLink>
-          </v-col>
-          <v-col cols="2">
-            <v-btn  style="width: 100%;" color="warning">repositorio</v-btn>
-           
-            <v-icon color="grey" size="60" >mdi-github</v-icon>
-            
-          </v-col>
-          <v-col cols="2">
-            <v-btn style="width: 100%;" color="success">exercicio</v-btn>
-          </v-col>
-          
+        <v-col cols="2">
+          <RouterLink to="/enunciado"><v-btn color="primary" style="width: 100%;">enunciado</v-btn></RouterLink>
+        </v-col>
+        <v-col cols="2">
+          <v-btn style="width: 100%;" color="warning">repositorio</v-btn>
+
+          <v-icon color="grey" size="60">mdi-github</v-icon>
+
+        </v-col>
+        <v-col cols="2">
+          <v-btn style="width: 100%;" color="success">exercicio</v-btn>
+        </v-col>
+
         <v-spacer></v-spacer>
       </v-row>
     </div>
