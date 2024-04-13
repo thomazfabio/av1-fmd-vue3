@@ -118,13 +118,14 @@ function initialize() {
   const { receita } = storeToRefs(receitaStore)
   for (const key in receita.value) {
     if (typeof receita.value[key] === 'object')
-      console.log(receita.value[key]['meta'])
       mousses.value.push(receita.value[key]['meta'])
   }
 }
 
 function editItem(item) {
+  console.log(item)
   editedIndex.value = mousses.value.indexOf(item)
+  console.log(editedIndex.value)
   editedItem.value = Object.assign({}, item)
   dialog.value = true
 }
